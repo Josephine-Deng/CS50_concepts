@@ -16,15 +16,15 @@ For example, the string `"HI!"` seems to use three memory blocks, but it actuall
 To measure the length of a string in C, we use the function `strlen()`, which is declared in the header file `string.h`.  
 It works similarly to Python’s `len()` function.
 
-### 💻 Command-Line Arguments
-In C, we can receive command-line input using this syntax:
-```c
-int main(int argc, string argv[])
-argc (argument count): the number of command-line arguments.
-argv (argument vector): an array of strings, each one representing a command-line argument entered by the user.
-
 ### Exit status
 When a program ends, it can return a number called an exit status to indicate success or failure:
 -return 0; → success
 -return 1; or any non-zero value → an error or bug occurred
+
+### 💻 Command-Line Arguments
+argc (argument count): the number of command-line arguments.
+argv (argument vector): an array of strings, each one representing a command-line argument entered by the user.
+In C, we can receive command-line input using this syntax:
+```c
+int main(int argc, string argv[])
 
